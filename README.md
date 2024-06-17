@@ -4,17 +4,16 @@ install node
 
 install the project dependencies with: npm install
 
-setup prisma: npx prisma generate
-
-seed DB: npx prisma db seed
-
 ## Getting Started
 
 First, run the development server: npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-to view DB:
-npx prisma studio
+## DB stuff
+
+seed DB: npx prisma db seed
+
+to view DB: npx prisma studio
 
 ## what ##
 
