@@ -1,0 +1,10 @@
+@import './../../../styles/var.scss';
+
+.loading {
+    padding-top: 1rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 1rem;
+}

@@ -1,0 +1,28 @@
+
+.add-form {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 0.5rem;
+    margin-top: 1rem;
+
+    .field {
+        margin: 1rem auto 0 auto;
+        display: flex;
+        .label {
+            width: 4rem;
+        }
+    } 
+
+    .error{
+        margin: -0.25rem auto 0 auto;
+        color: #c95252;
+        font-size: small;
+    }
+
+    .submit{
+        margin: 1rem auto 1rem auto;
+        width: 10rem;
+    }
+}

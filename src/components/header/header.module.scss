@@ -1,0 +1,18 @@
+@import './../../styles/var.scss';
+
+.header {
+    color: $primary-color;
+    display: flex;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        darken($accent-color, 10%)
+      )
+      darken($accent-color, 15%);
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid $primary-color;
+    padding: 1rem;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;    
+}

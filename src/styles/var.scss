@@ -1,0 +1,44 @@
+$primary-color: #F2F2F3;
+$secondary-color: #080b12;
+$accent-color: #3f6628;
+$off-colour: #72A1B7;
+$background-color: #0D121C;
+
+:export {
+    primaryColor: $primary-color;
+    accentColor: $accent-color;
+    tertiaryColor: $off-colour;
+    backgroundColor: $background-color;
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0.75;
+      transform: translateY(3px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.card {
+  max-width: 26rem;
+  min-width: 8rem;
+  min-height: 4rem;
+  border: 1px solid rgba($primary-color, 0.3);    
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(#72A1B7, 0.3);    
+  border-radius: 0.5rem;    
+  box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.1);
+  padding: 1rem;       
+  animation: fadeInUp 0.35s ease-in-out;
+
+  @media (max-width: 450px) {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+}

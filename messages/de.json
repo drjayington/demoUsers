@@ -1,0 +1,32 @@
+{
+  "Users": {
+    "Registered": "Registrierte Benutzer"
+  },
+  "AddUser": {
+    "AddUser": "Benutzer hinzufügen"
+  },
+  "Error": {
+    "Error": "Fehler",
+    "Return": "Zur Startseite zurückkehren"
+  },
+  "NotFound": {
+    "NotFound": "Seite nicht gefunden",
+    "Return": "Zur Startseite zurückkehren"
+  },
+  "Component": {
+    "AddUser": {
+      "Name": "Name",
+      "Email": "E-Mail",
+      "Submit": "Absenden",
+      "success": "Benutzer erstellt",
+      "error": "Erstellung des Benutzers fehlgeschlagen"
+    },
+    "List": {
+      "NotRegistered": "Keine Benutzer registriert"
+    },
+    "Header": {
+      "Users": "Benutzer",
+      "AddUser": "Benutzer hinzufügen"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.delete-form {
+    display: inline;
+    .delete { 
+        background-color: #bc2f2f; 
+        cursor: pointer; 
+        &:hover { 
+            background-color: darken(#b34646, 5%); 
+        }
+         &:active { 
+            background-color: darken(#b34646, 15%); ; 
+        }
+    }
+}

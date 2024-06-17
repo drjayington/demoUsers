@@ -1,0 +1,32 @@
+{
+    "Users":{
+      "Registered": "Registered users"
+    }, 
+    "AddUser": {
+      "AddUser": "Add user"
+    },
+    "Error": {
+      "Error": "Error",
+      "Return": "Return to home page"
+    },
+    "NotFound": {
+      "NotFound": "Page not found",
+      "Return": "Return to home page"
+    },
+    "Component": {
+      "AddUser": {
+         "Name" : "Name",
+         "Email": "Email",
+         "Submit": "Submit",
+         "success": "Created user ",
+         "error" : "Failed to create user "
+      },
+      "List": {
+        "NotRegistered": "No users are registered"
+      },      
+      "Header": {
+        "Users": "Users",
+        "AddUser": "Add User"
+      }
+    }
+}

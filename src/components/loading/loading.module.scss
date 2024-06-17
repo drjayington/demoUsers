@@ -1,0 +1,14 @@
+.skell {
+    border-radius: 0.5rem;
+    background: radial-gradient(circle, lightgrey, grey);
+    animation: pulse 1s infinite alternate ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+      background: radial-gradient(circle, #d3d3d3, #a9a9a9);
+    }
+    100% {
+      background: radial-gradient(circle, #a9a9a9, #d3d3d3);
+    }
+  }
