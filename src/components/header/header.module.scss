@@ -6,9 +6,8 @@
     background: linear-gradient(
         to bottom,
         transparent,
-        darken($accent-color, 10%)
-      )
-      darken($accent-color, 15%);
+        darken($accent-color, 50%)
+      ), $background-color;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid $primary-color;
